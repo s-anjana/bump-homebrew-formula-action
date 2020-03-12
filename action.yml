@@ -10,7 +10,7 @@ inputs:
     required: true
   homebrew-tap:
     description: The repository where the formula should be updated
-    default: Homebrew/homebrew-core
+    default: s-anjana/homebrew-core
   base-branch:
     description: The branch name in the homebrew-tap repository where the formula should be updated
   commit-message:
@@ -18,7 +18,7 @@ inputs:
     default: |
       {{formulaName}} {{version}}
 
-      Created by https://github.com/mislav/bump-homebrew-formula-action
+      Updated by https://github.com/s-anjana/bump-homebrew-formula-action
 branding:
-  icon: box
+  icon: circle
   color: orange
